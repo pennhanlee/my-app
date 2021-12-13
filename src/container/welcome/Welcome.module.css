@@ -1,0 +1,16 @@
+.welcome {
+    padding: 3em;
+    display: flex;
+}
+
+.welcome img {
+    width: 15em;
+    height: 15em;
+    margin: 0 3rem;
+    padding: 0rem 0rem;
+    object-position: 50% 50%;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 4px solid blue;
+    box-sizing: border-box;
+}

@@ -1,0 +1,12 @@
+.bodylayout { 
+    display:block;
+    padding: 0 10%;
+}
+
+.section {
+    border-bottom: 5px double black;
+}
+
+.accordianDescription {
+    padding: 1% 0;
+}

@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import classes from "./WelcomeInfo.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faInstagramSquare, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-
 import Button from "../button/Button";
 
+import Resume from "../../assets/files/LeePennHan_Resume.pdf";
+
 function WelcomeInfo() {
+
     return (<div className={classes.welcomeinfo}>
         <div>
             <h1>Hi, I'm Penn Han</h1>
@@ -23,8 +25,8 @@ function WelcomeInfo() {
             <p>leepennhan98@gmail.com</p>
         </div>
         <div>
-            <Button label="Resume"/>
-            <Button label="Cover Letter"/>
+            <Button label="Resume" path={Resume}/>
+            <Button label="Cover Letter" path={Resume}/>
         </div>
     </div >)
 }

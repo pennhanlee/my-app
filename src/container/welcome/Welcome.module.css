@@ -1,5 +1,6 @@
 .welcome {
     padding: 3em;
+    margin: 2em auto;
     display: flex;
 }
 
